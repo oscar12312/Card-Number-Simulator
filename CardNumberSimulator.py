@@ -108,7 +108,6 @@ Button(master, text='Quit', command=master.destroy).pack(ipadx=20, ipady=3, side
 
 master.bind('<Return>', (lambda event:var_states()))
 
-
 ProgressBar = ttk.Progressbar(master, orient='horizontal', mode='determinate', length=150)
 ProgressBar.pack( padx=30)
 ProgressBar['value'] = 0
