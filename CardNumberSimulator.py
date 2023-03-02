@@ -8,7 +8,7 @@ from tkinter import messagebox
 
 def IPSend(num):
     
-    ip = "192.168.102.101" # IP of Raspberry Pi
+    ip = "192.168.102.101" # IP of Raspberry Pi second commit
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect((ip, 8085))
     print("connected")
