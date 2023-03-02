@@ -14,7 +14,7 @@ def IPSend(num):
     print("connected")
     msg = num     
     client.send(msg.encode())
-    time.sleep(.5)
+    time.sleep(.5) #test
     client.close()
 
 def var_states():
