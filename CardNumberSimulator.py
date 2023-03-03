@@ -40,7 +40,7 @@ def var_states():
 
         master.update()
         
-        reader_dict = {
+        reader_dict = {    #dictionary which changed the inputted choice into the correct number. 
             "C1R1": "14",
             "C1R2": "08",
             "C1R3": "12",
@@ -58,6 +58,7 @@ def var_states():
             "C4R3": "11",
             "C4R4": "09" ,
         }
+
         ProgressBar['value'] = 10
         master.update()
 
