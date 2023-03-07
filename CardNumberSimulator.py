@@ -18,7 +18,7 @@ def IPSend(num):
     client.close()
 
 def var_states():
-    ProgressBar['value'] = 0
+    ProgressBar['value'] = 0 #Test
 
     testing = txt.get()
     if len(testing) < 3:
